@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+p {
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 18px;
+  width: 40px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+}
+
+.logo {
+  width: 250px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.upper-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  background-color: #5763a5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.inputs-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  background-color: #454f84;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-image {
+  width: 40px;
+  height: 42px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-right-width: 1px;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input {
+  height: 42px;
+  width: 400px;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: light;
+  border-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.password-img {
+  height: 500px;
+  width: 500px;
+}
+
+.button {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: light;
+  font-size: 18px;
+  color: #ffffff;
+  border-width: 0px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.lower-card {
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  min-height: 600px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  width: 90vw;
+  color: #ffffff;
+}
+
+.passwords-count {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: light;
+}
+
+.checkbox-card {
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+.input-check {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.label-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: light;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.no-passwords-card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.password-items-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+}
